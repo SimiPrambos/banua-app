@@ -1,0 +1,40 @@
+name: ident
+description: A new Flutter project.
+
+version: 1.5.0
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  avatar_letter: ^1.0.1
+  contextualactionbar: ^2.1.0
+  cupertino_icons: ^1.0.0
+  equatable: ^1.2.5
+  flutter_feather_icons: ^1.0.3
+  flutter_form_builder: ^3.14.0
+  google_fonts: ^1.1.0
+  hive: ^1.4.4+1
+  hive_flutter: ^0.3.1
+  provider: ^4.3.2+2
+  substring_highlight: ^0.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: ^1.10.3
+  change_app_package_name: ^0.1.2
+  flutter_launcher_icons: ^0.8.1
+  hive_generator: ^0.8.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/logo.png
+
+flutter_icons:
+  android: "ic_launcher"
+  ios: false
+  image_path: "assets/images/launcher.png"
